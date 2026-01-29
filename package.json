@@ -1,0 +1,15 @@
+{
+  "name": "telegram-news-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.63.0",
+    "rss-parser": "^3.12.0",
+    "node-fetch": "^3.3.2",
+    "better-sqlite3": "^9.4.0"
+  }
+}
